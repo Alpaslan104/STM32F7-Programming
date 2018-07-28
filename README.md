@@ -20,7 +20,10 @@ Second Step: Generating C Code of the project
                 
 Third Step: Write C Code in Keil uVision 5 IDE and Run
               - In Application User File, you can edit and add C codes in main.c file.
-              - After selecting main.c file, you can write,
+              - After selecting main.c file, you can write the code what I shared at the bottom of page.
+	      - We see that port and pin numbers are defined based on connection of LEDs on the board.
+              - In Project menu bar, you can run the codes with selecting 'Rebuild All Target File' choice.
+              - If there is no error, you can load the codes into the board with selecting 'Download' under 'Flash' in menu toolbar.
                 
                 ...
               
@@ -45,8 +48,6 @@ Third Step: Write C Code in Keil uVision 5 IDE and Run
                
                ...
                
-               - We see that port and pin numbers are defined based on connection of LEDs on the board.
-               - In Project menu bar, you can run the codes with selecting 'Rebuild All Target File' choice.
-               - If there is no error, you can load the codes into the board with selecting 'Download' under 'Flash' in menu toolbar.
+               
           
                 
